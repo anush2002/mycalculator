@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 65px;
+    font-size: 15px;
+    background-color: gray;
+    color: white;
+  }
+  
+  .zero {
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 135px;
+    font-size: 15px;
+    background-color: gray;
+    color: white;
+  }
+  
+  /* Adjusted font size */
+  .button,
+  .zero {
+    font-size: 20px;
+  }
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+.Zero:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.row {
+    margin: 8px 0px;
+}
+
+.row input {
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 23px;
+    width: 290px;
+    border: none;
+}
+
+.color {
+    background-color: darkorange;
+}
+
+.light {
+    background-color: lightblue;
+    color: black;
+}
+        /* Responsive Styles */
+        @media screen and (max-width: 600px) {
+            .card {
+                width: 90%;
+                max-width: 400px;
+            }
+        }
